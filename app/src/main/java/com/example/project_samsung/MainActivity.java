@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                     floats[i] = Double.parseDouble(a[i]);
                 RGB rgb = new RGB();
                 rgb = rgb.get_RGB_from_HSL(floats[0], floats[1], floats[2]);
-                //relativeLayout.setBackgroundColor(Color.rgb(rgb.R, rgb.G, rgb.B));
+                relativeLayout.setBackgroundColor(Color.rgb(rgb.R, rgb.G, rgb.B));
             }
             @SuppressLint("Range")
             @Override
